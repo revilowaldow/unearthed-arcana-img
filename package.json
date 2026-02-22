@@ -1,0 +1,27 @@
+{
+	"name": "unearthed-arcana-img",
+	"version": "1.0.0",
+	"description": "5etools unearthed-arcana images and associated assets",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"test:file-extensions": "node _test/test-file-extensions.js",
+		"test:file-sizes": "node _test/test-file-sizes.js",
+		"test:source-names": "node _test/test-source-names.js",
+		"test": "npm run test:file-extensions && npm run test:file-sizes && npm run test:source-names"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheGiddyLimit/unearthed-arcana-img.git"
+	},
+	"author": "TheGiddyLimit + Friends",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/TheGiddyLimit/unearthed-arcana-img/issues"
+	},
+	"homepage": "https://github.com/TheGiddyLimit/unearthed-arcana-img#readme",
+	"devDependencies": {
+		"5etools-utils": "^0.15.3"
+	}
+}
+
