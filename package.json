@@ -21,7 +21,6 @@
 	},
 	"homepage": "https://github.com/TheGiddyLimit/unearthed-arcana-img#readme",
 	"devDependencies": {
-		"5etools-utils": "^0.15.3"
+		"5etools-utils": "^0.15.4"
 	}
 }
-
